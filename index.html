@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive WeatherApp</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="reset.min.css" />
+        <link rel="stylesheet" type="text/css" href="style.min.css" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Work+Sans" rel="stylesheet">
+        <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+        <script>
+            var __adobewebfontsappname__ = "dreamweaver"
+        </script>
+        <script src="http://use.edgefonts.net/averia-libre:n3:default;stencil-std:n4:default;luckiest-guy:n4:default;cooper-black-std:n4:default;bubbler-one:n4:default;aclonica:n4:default;aladin:n4:default;alfa-slab-one:n4:default;montez:n4:default;sunshiney:n4:default;strumpf-std:n7:default;open-sans-condensed:n3:default.js"
+        type="text/javascript"></script>
+    </head>
+
+    <body>
+        <header>
+            <img class="logo" src="images/weatherapp.svg" Height="64" Width="64" alt="logo" />
+        </header>
+        <main>
+             <h1>Whats the weather like in...</h1>
+            <form autocomplete="on">
+                <input type="text" id="city">
+                <button class="submit" id="button" type="submit">Show me!</button>
+            </form>
+        </main>
+        <div class="container">
+            <div id="destination">
+
+            </div>
+            <div class="sectiontitle">
+                 <h2>FORECAST</h2>
+            </div>
+            <section id="weather">
+                <div class="row">
+                    <div class="weather col-lg-4 col-sm-6" id="weather1">
+
+                    </div>
+                    <div class="weather col-lg-4 col-sm-6" id="weather2">
+
+                    </div>
+                    <div class="weather col-lg-4 col-sm-6" id="weather3">
+
+                    </div>
+                    <div class="weather col-lg-4 col-sm-6" id="weather4">
+
+                    </div>
+
+                    <div class="weather col-lg-4 col-sm-6" id="weather5">
+
+                    </div>
+
+                    <div class="weather col-lg-4 col-sm-6" id="weather6">
+
+                    </div>
+                </div>
+            </section>
+            <div class="sectiontitle">
+                 <h2>TOP ATTRACTIONS</h2>
+            </div>
+            <section id="venues">
+                <div class="row">
+                    <div class="venue" id="venue1">
+
+                    </div>
+                    <div class="venue" id="venue2">
+
+                    </div>
+                    <div class="venue" id="venue3">
+
+                    </div>
+
+                    <div class="venue" id="venue4">
+
+                    </div>
+
+                    <div class="venue" id="venue5">
+
+                    </div>
+
+                    <div class="venue" id="venue6">
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div class="socialmedia">
+                    <a href="https://github.com/VirgillP">
+                        <img src="images/github.png" width="32" height="32" alt="virgill d pinas github" />
+                    </a>
+                    <a href="www.linkedin.com/in/virgill-d-pinas">
+                        <img src="images/linkedin.png" width="32" height="32" alt="virgill d pinas linkedin" />
+                    </a>
+                    <a href="https://twitter.com/@VirgillP">
+                        <img src="images/twitter.png" width="32" height="32" alt="virgill pinas twitter" />
+                    </a>
+                    <a href="mailto:virgill@me.com">
+                        <img src="images/mail.png" width="32" height="32" alt="virgill d pinas mail" />
+                    </a>
+                </div>
+            </footer>
+            <p class="authorwork">Designed by Virgill Pinas with Adobe DreamWeaver CC 2018</p>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="helpers.min.js"></script>
+        <script src="main.min.js"></script>
+    </body>
+
+</html>
